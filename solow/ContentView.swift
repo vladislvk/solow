@@ -3,13 +3,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            homeScreen()
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Home")
+                }
         }
-        .padding()
     }
 }
 

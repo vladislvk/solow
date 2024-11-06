@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E13D6FA72CDBE94F008080A0 /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13D6FA62CDBE94F008080A0 /* cardView.swift */; };
 		E18FCEF42CDAB39400425E83 /* solowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18FCEF32CDAB39400425E83 /* solowApp.swift */; };
 		E18FCEF62CDAB39400425E83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18FCEF52CDAB39400425E83 /* ContentView.swift */; };
 		E18FCEF82CDAB39400425E83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18FCEF72CDAB39400425E83 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E13D6FA62CDBE94F008080A0 /* cardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
 		E18FCEF02CDAB39400425E83 /* solow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = solow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E18FCEF32CDAB39400425E83 /* solowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solowApp.swift; sourceTree = "<group>"; };
 		E18FCEF52CDAB39400425E83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		E18FCF022CDAB51D00425E83 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				E13D6FA62CDBE94F008080A0 /* cardView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			files = (
 				E18FCF072CDAB64100425E83 /* homeScreen.swift in Sources */,
 				E18FCEF62CDAB39400425E83 /* ContentView.swift in Sources */,
+				E13D6FA72CDBE94F008080A0 /* cardView.swift in Sources */,
 				E18FCEF42CDAB39400425E83 /* solowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
