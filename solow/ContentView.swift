@@ -8,6 +8,7 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "house.fill")
                     Text("Home")
+                    Text("test")
                 }
         }
     }
